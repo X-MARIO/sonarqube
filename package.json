@@ -1,0 +1,22 @@
+{
+  "name": "react-sonarqube",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "sonar": "./node_modules/.bin/sonar-scanner",
+    "sonar2": "./node_modules/@sonar/scan/bin/sonar.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Simple TypeScript calculator with SonarQube integration",
+  "devDependencies": {
+    "@sonar/scan": "^4.3.0",
+    "@types/node": "^20.11.24",
+    "sonar-scanner": "^3.1.0",
+    "typescript": "^5.3.3"
+  }
+}
