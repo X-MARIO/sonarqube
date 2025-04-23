@@ -25,4 +25,5 @@ coverage/
 *.tsbuildinfo
 
 # SonarQube
-.sonar/ 
+.sonar/
+.ai

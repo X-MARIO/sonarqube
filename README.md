@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=X-MARIO_sonarqube&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=X-MARIO_sonarqube)
+
 # TypeScript Калькулятор с интеграцией SonarQube
 
 Простой проект калькулятора на TypeScript с настроенной интеграцией SonarQube для анализа качества кода.
